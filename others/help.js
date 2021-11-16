@@ -40,9 +40,9 @@ module.exports = {
 > <a:ky_3:909571489982971955>hug / slots
 
  > <a:ky_13:909955649180409886> Links
- > [Support](https://discord.gg/K8SSqweuSH)
- > [Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
- > [Website](coming soon)
+ > <a:ky_21:909989753083027496>[Support](https://discord.gg/K8SSqweuSH)
+ > <a:ky_21:909989753083027496>[Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
+ > <a:ky_21:909989753083027496>[Website](coming soon)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
