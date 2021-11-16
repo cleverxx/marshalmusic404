@@ -133,14 +133,14 @@ module.exports = {
 
     try {
       const newsong = new MessageEmbed()
-       .setTitle("🎶 "+song.title)
+       .setTitle("<:ky_23:910005535682732083> "+song.title)
         .setURL(song.url)
         .setColor("RANDOM")
         .setImage(thumb)
         .setThumbnail(`https://media.discordapp.net/attachments/857029431030054993/859771060648280104/image0.jpg `)
-         .addField("👤 Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
-        .addField("⏱ Length:", `\`${song.duration} Minutes\``, true)
-        .addField("📣 Volume:", `\`100\``, true)
+         .addField("<a:ky_5:909784261488443392> Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
+        .addField("<a:ky_24:910050679643586590> Length:", `\`${song.duration} Minutes\``, true)
+        .addField("<:ky_23:910005535682732083> Volume:", `\`100\``, true)
 
       var playingMessage = await queue.textChannel.send(newsong);
       
@@ -167,7 +167,7 @@ module.exports = {
       switch (reaction.emoji.name) {
        
         //np
-        case "🕛":
+        case "<a:ky_24:910050679643586590>":
         reaction.users.remove(user).catch(console.error);
         const song = queue.songs[0];
         //get current song duration in s
@@ -186,8 +186,8 @@ module.exports = {
         let nowPlaying = new MessageEmbed()
           .setTitle("Now playing")
           .setDescription(`[**${song.title}**](${song.url})`)
-          .addField("👤 Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
-          .addField("⏱ Length:", `\`${song.duration} Minutes\``, true)
+          .addField("<a:ky_5:909784261488443392> Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
+          .addField("<a:ky_24:910050679643586590> Length:", `\`${song.duration} Minutes\``, true)
           .setColor("RANDOM")
           //if its a stream
           if(ms >= 10000) {
