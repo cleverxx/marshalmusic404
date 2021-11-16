@@ -32,7 +32,7 @@ async execute(message, args, client) {
     //If no args return
     if (!args.length)
       return attentionembed(message, `Usage: ${message.client.prefix}play <YouTube URL | Video Name | Soundcloud URL>`);
-    message.react("<a:emoji_182:860935836240314378>").catch(console.error);
+    message.react("<:ky_23:910005535682732083>").catch(console.error);
     const permissions = channel.permissionsFor(message.client.user);
     if (!permissions.has("CONNECT"))
       return attentionembed(message, "I need permissions to join your channel!");
@@ -58,7 +58,7 @@ const search = args.join(" ");
       if (serverQueue) {
         if (urlValid) {
           message.channel.send(new MessageEmbed().setColor("RANDOM")
-            .setDescription(`**🔎 Searching 🖇 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**🔎 Searching <a:ky_13:909955649180409886> [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("RANDOM")
@@ -67,11 +67,11 @@ const search = args.join(" ");
       } else {
         queueConstruct.connection = await channel.join();
         message.channel.send(new MessageEmbed().setColor("RANDOM")
-          .setDescription(`**✔️ Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+          .setDescription(`**<a:ky_8:909785019109740545> Joined \`${channel.name}\` <a:ky_24:910050679643586590> bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         if (urlValid) { 
           message.channel.send(new MessageEmbed().setColor("RANDOM")
-            .setDescription(`**🔎 Searching 🖇 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**🔎 Searching <a:ky_13:909955649180409886> [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("RANDOM")
@@ -135,15 +135,15 @@ catch {
       }
 serverQueue.songs.push(song);
       const newsong = new MessageEmbed()
-        .setTitle("🎶 "+song.title)
+        .setTitle("<:ky_23:910005535682732083> "+song.title)
         .setURL(song.url)
         .setColor("RANDOM")
         .setImage(thumb)
         .setThumbnail(`https://images-ext-2.discordapp.net/external/sgK9ggHfs-bLZHFzmiOg9V6pw5w0qsW4sN00kU4qMtQ/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/b25a811f2d1306df4c30e34e302bd6c7.png `)
-         .addField("👤 Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
-        .addField("⏱ Length:", `\`${song.duration} Minutes\``, true)
-        .addField("🔊 Volume:", `\`100\``, true)
-        .addField("📈 Position in queue:", `**\`${serverQueue.songs.length - 1}\`**`, true)
+         .addField("<a:ky_5:909784261488443392> Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
+        .addField("<a:ky_24:910050679643586590> Length:", `\`${song.duration} Minutes\``, true)
+        .addField("<:ky_23:910005535682732083> Volume:", `\`100\``, true)
+        .addField("<a:ky_20:909985257309208636> Position in queue:", `**\`${serverQueue.songs.length - 1}\`**`, true)
         return serverQueue.textChannel
         .send(newsong)
         .catch(console.error);
