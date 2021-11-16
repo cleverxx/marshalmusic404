@@ -18,28 +18,28 @@ module.exports = {
     .setThumbnail(` `)
     .setTitle(`**Random Help**`)
     .setDescription(`
-> <a:emoji_180:856878164592427028>  User / Commands
+> <a:ky_5:909784261488443392>  User  Commands
 > invite / support / about / ping / prefix /
 > uptime / tinvites / sug / roleuser / report
 
-> <a:emoji_102:871813008471507004> Music Commands
+> <a:ky_14:909966706896691220> Music Commands
 > play / skip / skipto / stop / volume / nowplaying /
 > shuffle / search  / loop / lyrics / radio
 
-> <a:emoji_11:845102475740577792> Gif Commands
+> <a:ky_16:909970452489855086> Gif Commands
 > boy / girl / couple / sad 
 > / cartoon / anime / neon 
 
-> <a:FBBE600B13DB4F5986B4D0AF89247091:871811080148639794>  /Moderation Commands
+> <a:ky_6:909784482180112415>  /Moderation Commands
 > ban / unban / setnick / roleadd / roleremove / 
 > vkick / setprefix / clear / close / open / senddm
 
 
-<a:kass:872897079305986108> Game Commands
-kiss / slap /
-hug / slots
+> <a:ky_20:909985257309208636> Game Commands
+> kiss / slap /
+> hug / slots
 
->  <a:emoji_103:871813076964507710> Links
+ > <a:ky_13:909955649180409886> Links
  > [Support](https://discord.gg/K8SSqweuSH)
  > [Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
  > [Website](coming soon)
