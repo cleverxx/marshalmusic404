@@ -40,8 +40,8 @@ module.exports = {
 > <a:ky_3:909571489982971955>hug slots /
 
  > <a:ky_13:909955649180409886> Links
- > <a:ky_21:909989753083027496>[Support](https://discord.gg/K8SSqweuSH)
- > <a:ky_21:909989753083027496>[Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
+ > <a:ky_21:909989753083027496>[Support](https://discord.gg/4KHuh2eRwq)
+ > <a:ky_21:909989753083027496>[Invite](https://discord.com/api/oauth2/authorize?client_id=909920409934245948&permissions=8&scope=bot)
  > <a:ky_21:909989753083027496>[Website](coming soon)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
