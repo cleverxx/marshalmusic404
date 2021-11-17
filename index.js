@@ -12,8 +12,6 @@ client.setMaxListeners(0);
 client.prefix = PREFIX;
 client.queue = new Map();
 const cooldowns = new Collection();
-const cooldown = new Set();
-const cdtime = 5;
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
@@ -1107,73 +1105,3 @@ client.on("guildCreate" , DarkMan => {
 })
 
 
-
-
-client.on("message", message => {
-  if (message.content.startsWith(`${prefix}lock`)) {
-    if (cooldown.has(message.author.id)) {
-      return message.channel.send(`You have to wait 5 seconds`).then(m => {
-        m.delete({ timeout: cdtime * 600 });
-      });
-    }
-    cooldown.add(message.author.id);
-    setTimeout(() => {
-      cooldown.delete(message.author.id);
-    }, cdtime * 1000);
-    if (!message.guild.member(message.author).hasPermission("MANAGE_CHANNELS"))
-      return message.channel.send(
-        "**You must have a higher role use this command**"
-      );
-    message.channel
-      .createOverwrite(message.guild.id, { SEND_MESSAGES: false })
-      .then(() => {
-        const embed = new Discord.MessageEmbed()
-          .setDescription(
-            `
-🔒 A channel has been locked.
-Channel: <#${message.channel.id}>
-Moderator: <@${message.author.id}>
-**Reason**
-Not-Provided
-          `
-          )
-          .setColor("RANDOM");
-        return message.channel.send(embed);
-      });
-  }
-});
-//////////////////////////////////////////////////////////////////////////////
-client.on("message", message => {
-  if (message.content.startsWith(`${prefix}unlock`)) {
-    if (cooldown.has(message.author.id)) {
-      return message.channel.send(`You have to wait 5 seconds`).then(m => {
-        m.delete({ timeout: cdtime * 600 });
-      });
-    }
-    cooldown.add(message.author.id);
-    setTimeout(() => {
-      cooldown.delete(message.author.id);
-    }, cdtime * 1000);
-    if (!message.member.hasPermission("MANAGE_CHANNELS"))
-      return message.channel.send(
-        "**You must have a higher role use this command**"
-      );
-    message.channel
-      .createOverwrite(message.guild.id, { SEND_MESSAGES: true })
-      .then(() => {
-        const embed = new Discord.MessageEmbed()
-          .setDescription(
-            `
-🔒 A channel has been unloked.
-Channel: <#${message.channel.id}>
-Moderator: <@${message.author.id}>
-**Reason**
-Not-Provided
-          
-          `
-          )
-          .setColor("RANDOM");
-        return message.channel.send(embed);
-      });
-  }
-}); 
