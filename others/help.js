@@ -23,7 +23,7 @@ module.exports = {
 > <a:ky_3:909571489982971955>uptime / tinvites / sug roleuser report
 
 > <a:ky_14:909966706896691220> Music Commands
-> <a:ky_3:909571489982971955>play skip / skipto stop volume nowplaying
+> <a:ky_3:909571489982971955>play skip skipto stop volume nowplaying
 > <a:ky_3:909571489982971955>shuffle search loop lyrics radio /
 
 > <a:ky_16:909970452489855086> Gif Commands
