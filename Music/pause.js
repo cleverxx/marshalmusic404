@@ -28,7 +28,7 @@ module.exports = {
       const pausemebed = new MessageEmbed().setColor("RANDOM")
       .setAuthor(`${message.author.username} paused the music.`, "")
       //react with approve emoji
-      message.react("<:emoji_4:822203026776391711>")
+      message.react("<:ky_23:910005535682732083>")
       //return message
       return queue.textChannel.send(pausemebed).catch(console.error);
     }
