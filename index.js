@@ -12,6 +12,8 @@ client.setMaxListeners(0);
 client.prefix = PREFIX;
 client.queue = new Map();
 const cooldowns = new Collection();
+const cooldown = new Set();
+const cdtime = 5;
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
@@ -1106,8 +1108,9 @@ client.on("guildCreate" , DarkMan => {
 
 
 
+
 client.on("message", message => {
-  if (message.content.startsWith(prefix + "lock")) {
+  if (message.content.startsWith(`${prefix}lock`)) {
     if (cooldown.has(message.author.id)) {
       return message.channel.send(`You have to wait 5 seconds`).then(m => {
         m.delete({ timeout: cdtime * 600 });
@@ -1141,7 +1144,7 @@ Not-Provided
 });
 //////////////////////////////////////////////////////////////////////////////
 client.on("message", message => {
-  if (message.content.startsWith(prefix + "unlock")) {
+  if (message.content.startsWith(`${prefix}unlock`)) {
     if (cooldown.has(message.author.id)) {
       return message.channel.send(`You have to wait 5 seconds`).then(m => {
         m.delete({ timeout: cdtime * 600 });
