@@ -31,8 +31,8 @@ module.exports = {
 > <a:ky_3:909571489982971955>cartoon anime neon /
 
 > <a:ky_6:909784482180112415>  /Moderation Commands
-> <a:ky_3:909571489982971955>ban unban setnick roleadd roleremove lock /
-> <a:ky_3:909571489982971955>vkick unlock setprefix clear close open senddm /
+> <a:ky_3:909571489982971955>ban unban setnick roleadd roleremove /
+> <a:ky_3:909571489982971955>vkick  setprefix clear close open senddm /
 
 
 > <a:ky_20:909985257309208636> Game Commands
