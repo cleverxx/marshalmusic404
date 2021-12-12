@@ -330,7 +330,7 @@ Ban.ban();
 
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("861399446008102923");
+  let channel = client.channels.cache.get("918818572715847700");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -344,7 +344,7 @@ client.on("guildCreate", guild => {
 
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("861399487233654834");
+  let channel = client.channels.cache.get("918818572715847700");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
@@ -357,7 +357,7 @@ client.on("guildDelete", guild => {
   channel.send(embed);
 });
 
-const channelid = "860205351819411456"    //id channele vc
+const channelid = ""    //id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
