@@ -17,7 +17,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setDescription(`
 
-[{Click here}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot) **to invite the bot.**
+[{Click here}](https://discord.com/oauth2/authorize?client_id=919665380270673921&permissions=8&scope=bot) **to invite the bot.**
 `)
 
   
