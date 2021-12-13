@@ -880,7 +880,7 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(` ${PREFIX}help - Random Bot Is here for fun`, { type: "WATCHING"});
+    client.user.setActivity(` ${PREFIX}help - Marshal Music Bot Is Here`, { type: "WATCHING"});
     client.user.setActivity(` ${PREFIX}help | Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "WATCHING"});
    
   
