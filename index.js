@@ -933,15 +933,15 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("Random Bot About", "https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg")
+    .setAuthor("Marshal Bot About", "https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg")
     .setThumbnail(`https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/YMjsqqp8Gw)
+[{Support}](https://discord.gg/4M2AXvTV3c)
 
-[{Invite}](https://discord.com/oauth2/authorize?client_id=919665380270673921&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)
 
 > <a:devv:871813217897316353> **(Owner Bot)** 
 > <a:Online:872897515165466764> <@911583412861681674>
@@ -950,7 +950,7 @@ client.on(`message`, async (message) => {
 > <:IconStatusOnline:872939264722206731> Online : Plying
 
 > <a:emoji_21:806556915798376497> **(Prefix)**
-> <a:FBBE600B13DB4F5986B4D0AF89247091:871811080148639794> ***__R__***
+> <a:FBBE600B13DB4F5986B4D0AF89247091:871811080148639794> ***__M__***
 
 
 `)
@@ -970,7 +970,7 @@ client.on(`message`, async (message) => {
     .setDescription (`
 {Links}
 
-[{Support}](https://discord.gg/YMjsqqp8Gw)
+[{Support}](https://discord.gg/4M2AXvTV3c)
 -
 [{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
