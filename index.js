@@ -941,10 +941,10 @@ client.on(`message`, async (message) => {
 
 [{Support}](https://discord.gg/YMjsqqp8Gw)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)
+[{Invite}](https://discord.com/oauth2/authorize?client_id=919665380270673921&permissions=8&scope=bot)
 
 > <a:devv:871813217897316353> **(Owner Bot)** 
-> <a:Online:872897515165466764> <@!792754963759235074>
+> <a:Online:872897515165466764> <@Owner Id>
 
 > <a:IconStatus:872908170568290365> **(Status)**
 > <:IconStatusOnline:872939264722206731> Online : Plying
