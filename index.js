@@ -943,8 +943,8 @@ client.on(`message`, async (message) => {
 
 [{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)
 
-> <a:devv:871813217897316353> **(Owner Bot)** 
-> <a:Online:872897515165466764> <@911583412861681674>
+> <a:devloper_walid:920060867566010448> **(Owner Bot)** 
+>  <@911583412861681674>
 
 > <a:IconStatus:872908170568290365> **(Status)**
 > <:IconStatusOnline:872939264722206731> Online : Plying
