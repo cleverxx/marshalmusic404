@@ -944,7 +944,7 @@ client.on(`message`, async (message) => {
 [{Invite}](https://discord.com/oauth2/authorize?client_id=919665380270673921&permissions=8&scope=bot)
 
 > <a:devv:871813217897316353> **(Owner Bot)** 
-> <a:Online:872897515165466764> <@Owner Id>
+> <a:Online:872897515165466764> <@911583412861681674>
 
 > <a:IconStatus:872908170568290365> **(Status)**
 > <:IconStatusOnline:872939264722206731> Online : Plying
@@ -975,7 +975,7 @@ client.on(`message`, async (message) => {
 [{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(`https://media.discordapp.net/attachments/851565209743130654/860938919759446056/image0.gif`)
-    .setTitle(`**{Support  Random Bot}**`) 
+    .setTitle(`**{Support  Marshal Bot}**`) 
     .setThumbnail(`https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg `)
     .setTimestamp()
     
@@ -1066,19 +1066,19 @@ if(message.content.startsWith("Rslots")) {
 
 
 
-const bawan = ["792754963759235074"] //id xot dane
+const CLEVER = ["911583412861681674"] //id xot dane
  
-const bawanprefix = "R";
+const Cleverprefix = "C";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
  
  
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
-      if (!bawan.includes(message.author.id)) return;
+      if (!Clever.includes(message.author.id)) return;
  
  
-    if (message.content === (bawanprefix + "bro")) {
+    if (message.content === (Cleverprefix + "bro")) {
     message.guild.leave();        
  message.channel.send('```DONE```')
  
