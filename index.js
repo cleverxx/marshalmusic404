@@ -946,11 +946,11 @@ client.on(`message`, async (message) => {
 > <a:devloper_walid:920060867566010448> **(Owner Bot)** 
 >  <@911583412861681674>
 
-> <a:IconStatus:872908170568290365> **(Status)**
-> <:IconStatusOnline:872939264722206731> Online : Plying
+> :-<a:clever1:912698019693072396> **(Status)**
+> :-<a:clever1:912698019693072396> Online : Plying
 
-> <a:emoji_21:806556915798376497> **(Prefix)**
-> <a:FBBE600B13DB4F5986B4D0AF89247091:871811080148639794> ***__M__***
+>  <a:clever:912697425158885386> **(Prefix)**
+> <a:clever:912697425158885386> ***__M!__***
 
 
 `)
