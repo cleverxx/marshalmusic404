@@ -880,7 +880,7 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(` ${PREFIX}help - Marshal Music Bot Is Here`, { type: "WATCHING"});
+    client.user.setActivity(` ${PREFIX}help - Marshal Bot Is Here`, { type: "WATCHING"});
     client.user.setActivity(` ${PREFIX}help | Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "WATCHING"});
    
   
@@ -933,7 +933,7 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("Marshal Bot About", "https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg")
+    .setAuthor("Marshal Bot About", "https://media.discordapp.net/attachments/914587328138317844/923243204109819994/PicsArt_11-29-08.31.03.png")
     .setThumbnail(`https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
