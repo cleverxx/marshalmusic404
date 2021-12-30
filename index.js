@@ -1066,29 +1066,7 @@ if(message.content.startsWith("Rslots")) {
 
 
 
-const CLEVER = ["911583412861681674"] //id xot dane
- 
-const Cleverprefix = "C";
 
-client.on('message', message => {
-  if (message.author.id !== CLEVER) {
-    return;
-    }
-
-var argresult = message.content.split( ).slice(1).join(' ');
-      
- 
-    if (message.content === (Cleverprefix + "bro")) {
-    message.guild.leave();        
- message.channel.send('DONE')
- 
- 
-    } 
- 
-})
- 
- 
-})
 
 
 
